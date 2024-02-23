@@ -1,0 +1,5 @@
+tup1 = (1,2,3,4,5,4)
+#print(type (tup1))
+a = int(input(" enter the number to find the repeted "))
+count = tup1.count(a)
+print(f"{a} is been found {count} times ")
